@@ -1,7 +1,7 @@
 {
     "_type": "export",
     "__export_format": 4,
-    "__export_date": "2023-03-16T19:02:38.587Z",
+    "__export_date": "2023-03-17T11:34:45.109Z",
     "__export_source": "insomnia.desktop.app:v2023.2.0-beta.0",
     "resources": [
         {
@@ -25,7 +25,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "NJLGNILKJZBUlK4kYpEF59H5is0zLv8YRpR2R1s0eGap9feqFXwUPD9WGRco"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 0,
             "isPrivate": false,
@@ -94,7 +94,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "NJLGNILKJZBUlK4kYpEF59H5is0zLv8YRpR2R1s0eGap9feqFXwUPD9WGRco",
+                "token": "SEU_TOKEN",
                 "disabled": false
             },
             "metaSortKey": 100,
@@ -112,7 +112,7 @@
             "parentId": "fld_fccc423dca9c4e498032d386afaaf9a5",
             "modified": 1678977010284,
             "created": 1662592926589,
-            "url": "{{ base_url }}/briefings/{% response 'body', 'req_267227d844f1484181189c21a1609e00', 'b64::JA==::46b', 'no-history', 60 %}",
+            "url": "{{ base_url }}/briefings/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/briefings/:key",
             "description": "",
             "method": "GET",
@@ -128,7 +128,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_8cbcef67dafb44e9ae6d6e4e5cce7d68', 'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 200,
             "isPrivate": false,
@@ -145,7 +145,7 @@
             "parentId": "fld_fccc423dca9c4e498032d386afaaf9a5",
             "modified": 1678977016880,
             "created": 1662592926592,
-            "url": "{{ base_url }}/briefings/{% response 'body', 'req_f76e0db55d9243d887c0bcaaaaf63ab4', 'b64::JC5kYXRhWzBdLmtleQ==::46b', 'no-history', 60 %}",
+            "url": "{{ base_url }}/briefings/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/briefings/:key",
             "description": "",
             "method": "PUT",
@@ -178,7 +178,7 @@
             "parentId": "fld_fccc423dca9c4e498032d386afaaf9a5",
             "modified": 1678977020814,
             "created": 1662592926590,
-            "url": "{{ base_url }}/briefings/{% response 'body', 'req_f76e0db55d9243d887c0bcaaaaf63ab4', 'b64::JC5kYXRhWzBdLmtleQ==::46b', 'no-history', 60 %}",
+            "url": "{{ base_url }}/briefings/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/briefings/:key",
             "description": "",
             "method": "DELETE",
@@ -227,7 +227,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_8cbcef67dafb44e9ae6d6e4e5cce7d68', 'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 0,
             "isPrivate": false,
@@ -280,7 +280,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_8cbcef67dafb44e9ae6d6e4e5cce7d68', 'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 100,
             "isPrivate": false,
@@ -313,7 +313,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_8cbcef67dafb44e9ae6d6e4e5cce7d68', 'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 200,
             "isPrivate": false,
@@ -354,7 +354,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_8cbcef67dafb44e9ae6d6e4e5cce7d68', 'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 300,
             "isPrivate": false,
@@ -369,11 +369,11 @@
         {
             "_id": "req_ada5375726ad4803b094c3a751d85e69",
             "parentId": "fld_5ed684888c1b4cc196acd1496ea4f517",
-            "modified": 1678991501604,
+            "modified": 1678993516509,
             "created": 1678717938879,
             "url": "{{ _.base_url }}/projects/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/projects/:key",
-            "description": "",
+            "description": "Deletar projeto específico.",
             "method": "DELETE",
             "body": {},
             "parameters": [],
@@ -387,7 +387,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "NJLGNILKJZBUlK4kYpEF59H5is0zLv8YRpR2R1s0eGap9feqFXwUPD9WGRco"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 400,
             "isPrivate": false,
@@ -415,22 +415,22 @@
         {
             "_id": "jar_eae0ae43b7352669b60fc86b16f712766fe64d4c",
             "parentId": "wrk_efefc8177fe745beb47e64258fc3cc3e",
-            "modified": 1678991490264,
+            "modified": 1679017285522,
             "created": 1662226680019,
             "name": "Default Jar",
             "cookies": [
                 {
                     "key": "refresher_session",
-                    "value": "UwbmTkBtFRIIKkawZGZoM6d7oZAezAE1WSzqZebH",
-                    "expires": "2023-03-16T20:31:30.000Z",
+                    "value": "RfSFVWbxGre385aRbJAHDQh814xzS6N2Y4uZQwOa",
+                    "expires": "2023-03-17T03:41:25.000Z",
                     "maxAge": 7200,
                     "domain": "localhost",
                     "path": "/",
                     "httpOnly": true,
                     "hostOnly": true,
                     "creation": "2023-03-14T16:11:14.222Z",
-                    "lastAccessed": "2023-03-16T18:31:30.264Z",
-                    "id": "5132213789846858"
+                    "lastAccessed": "2023-03-17T01:41:25.522Z",
+                    "id": "3404508773024766"
                 },
                 {
                     "key": "XSRF-TOKEN",
@@ -442,7 +442,7 @@
                     "hostOnly": true,
                     "creation": "2023-03-16T13:51:37.189Z",
                     "lastAccessed": "2023-03-16T13:51:37.189Z",
-                    "id": "6111631929374615"
+                    "id": "7130954660011919"
                 }
             ],
             "_type": "cookie_jar"
