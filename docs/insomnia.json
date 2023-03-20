@@ -1,13 +1,13 @@
 {
     "_type": "export",
     "__export_format": 4,
-    "__export_date": "2023-03-17T11:34:45.109Z",
+    "__export_date": "2023-03-20T11:36:15.237Z",
     "__export_source": "insomnia.desktop.app:v2023.2.0-beta.0",
     "resources": [
         {
             "_id": "req_267227d844f1484181189c21a1609e00",
             "parentId": "fld_fccc423dca9c4e498032d386afaaf9a5",
-            "modified": 1678977078115,
+            "modified": 1679311083056,
             "created": 1662592926571,
             "url": "{{ base_url }}/briefings",
             "name": "/briefings",
@@ -143,7 +143,7 @@
         {
             "_id": "req_acc557481d1c45c89fd6d35fba74059f",
             "parentId": "fld_fccc423dca9c4e498032d386afaaf9a5",
-            "modified": 1678977016880,
+            "modified": 1679311113913,
             "created": 1662592926592,
             "url": "{{ base_url }}/briefings/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/briefings/:key",
@@ -161,7 +161,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_84dc53b928ff4c02813d67de536fbf2b', 'b64::JC5qZXNzaWNhLmFwaV90b2tlbg==::46b', 'never', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 250,
             "isPrivate": false,
@@ -176,7 +176,7 @@
         {
             "_id": "req_bf81f8eb6bf94896a2f10413173f3aa6",
             "parentId": "fld_fccc423dca9c4e498032d386afaaf9a5",
-            "modified": 1678977020814,
+            "modified": 1679311132046,
             "created": 1662592926590,
             "url": "{{ base_url }}/briefings/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/briefings/:key",
@@ -194,7 +194,7 @@
             ],
             "authentication": {
                 "type": "bearer",
-                "token": "{% response 'body', 'req_84dc53b928ff4c02813d67de536fbf2b', 'b64::JC5qZXNzaWNhLmFwaV90b2tlbg==::46b', 'never', 60 %}"
+                "token": "SEU_TOKEN"
             },
             "metaSortKey": 300,
             "isPrivate": false,
@@ -209,7 +209,7 @@
         {
             "_id": "req_365ff04d8dc14e80ab49e51d24f922c7",
             "parentId": "fld_5ed684888c1b4cc196acd1496ea4f517",
-            "modified": 1678992931279,
+            "modified": 1679078976476,
             "created": 1678460656640,
             "url": "{{ _.base_url }}/projects",
             "name": "/projects",
@@ -254,15 +254,15 @@
         {
             "_id": "req_4d5a018fe0dd44c6b8d00891f2000512",
             "parentId": "fld_5ed684888c1b4cc196acd1496ea4f517",
-            "modified": 1678992280832,
+            "modified": 1679311932851,
             "created": 1678472406829,
             "url": "{{ _.base_url }}/projects",
             "name": "/projects",
-            "description": "Criar um novo projeto.\n\n#### Parâmetros obrigatórios\n\n- `client_key` - Chave criptografada identificadora do cliente.\n- `label` - Nome do projeto.\n\n#### Parâmetros opcionais\n\n- `privacy` - Privacidade do projeto. (Veja a lista de valores a baixo)\n\n- `street` - Logradouro do projeto. (ex: `Rua Xingu`)\n- `city` - Cidade do projeto. (ex: `São Paulo`)\n- `state` - Chave identificadora do estado do projeto. (ex: `25`) [Veja a lista]()\n- `zipcode` - CEP do projeto. (ex: `95703-108`)\n\n---\n\nValores disponíveis de `privacy`:\n- `private` - __(Padrão)__ Privada. Apenas o dono do projeto pode editar ou acessar o projeto.\n- `public_accessible` - Acessível publicamente. Todos que possuem o link podem ver o projeto.\n- `public_editable` - Editável publicamente. Todos que possuem o link podem ver e editar o projeto.\n\n---\n\nValores disponíveis de `state`:\n| Chave de ID | Estado |\n|-------------|--------|\n|1|Acre|\n|2|Alagoas|\n|3|Amapá|\n|4|Amazonas|\n|5|Bahia|\n|6|Ceará|\n|7|Distrito Federal|\n|8|Espírito Santo|\n|9|Goiás|\n|10|Maranhão|\n|11|Mato Grosso|\n|12|Mato Grosso do Sul|\n|13|Minas Gerais|\n|14|Pará|\n|15|Paraíba|\n|16|Paraná|\n|17|Pernambuco|\n|18|Piauí|\n|19|Rio de Janeiro|\n|20|Rio Grande do Norte|\n|21|Rio Grande do Sul|\n|22|Rondônia|\n|23|Roraima|\n|24|Santa Catarina|\n|25|São Paulo|\n|26|Sergipe|\n|27|Tocantins|\n|28|Fora do Brasil|",
+            "description": "Criar um novo projeto.\n\n#### Parâmetros obrigatórios\n\n- `client_key` - Chave criptografada identificadora do cliente.\n- `label` - Nome do projeto.\n\n#### Parâmetros opcionais\n\n- `privacy` - Privacidade do projeto. (Veja a lista de valores a baixo)\n\n- `street` - Logradouro do projeto. (ex: `Rua Xingu`)\n- `city` - Cidade do projeto. (ex: `São Paulo`)\n- `state` - Chave identificadora do estado do projeto. (ex: `25`) [Veja a lista](#valoresdisponveisdestate)\n- `zipcode` - CEP do projeto. (ex: `95703-108`)\n\n---\n\n##### Valores disponíveis de `privacy`\n- `private` - __(Padrão)__ Privada. Apenas o dono do projeto pode editar ou acessar o projeto.\n- `public_accessible` - Acessível publicamente. Todos que possuem o link podem ver o projeto.\n- `public_editable` - Editável publicamente. Todos que possuem o link podem ver e editar o projeto.\n\n---\n\n##### Valores disponíveis de `state`\n| Chave de ID | Estado |\n|-------------|--------|\n|1|Acre|\n|2|Alagoas|\n|3|Amapá|\n|4|Amazonas|\n|5|Bahia|\n|6|Ceará|\n|7|Distrito Federal|\n|8|Espírito Santo|\n|9|Goiás|\n|10|Maranhão|\n|11|Mato Grosso|\n|12|Mato Grosso do Sul|\n|13|Minas Gerais|\n|14|Pará|\n|15|Paraíba|\n|16|Paraná|\n|17|Pernambuco|\n|18|Piauí|\n|19|Rio de Janeiro|\n|20|Rio Grande do Norte|\n|21|Rio Grande do Sul|\n|22|Rondônia|\n|23|Roraima|\n|24|Santa Catarina|\n|25|São Paulo|\n|26|Sergipe|\n|27|Tocantins|\n|28|Fora do Brasil|",
             "method": "POST",
             "body": {
                 "mimeType": "application/json",
-                "text": "{\n\t\"client_key\": \"dW1RU0pNUWRuV3dXc2lmTlhVQmN3QT09\",\n\t\"label\": \"Casa de verão da Maria\",\n\t\"privacy\": \"public_access\",\n\t\"street\": \"Rua Xingu\",\n\t\"street_number\": \"920\",\n\t\"complement\": \"Sala 201\",\n\t\"city\": \"Bento Gonçalves\",\n\t\"state\": 21,\n\t\"zipcode\": \"95703-180\"\n}"
+                "text": "{\n\t\"client_key\": \"bVloK2p0RGp2NmtydXB6K3dudkJLZz09\",\n\t\"label\": \"Casa de verão da Maria\",\n\t\"privacy\": \"public_access\",\n\t\"street\": \"Rua Xingu\",\n\t\"street_number\": \"920\",\n\t\"complement\": \"Sala 201\",\n\t\"city\": \"Bento Gonçalves\",\n\t\"state\": 21,\n\t\"zipcode\": \"95703-180\"\n}"
             },
             "parameters": [],
             "headers": [
@@ -328,11 +328,11 @@
         {
             "_id": "req_bc6ea167cea9468db294a94f30094228",
             "parentId": "fld_5ed684888c1b4cc196acd1496ea4f517",
-            "modified": 1678991918707,
+            "modified": 1679311948182,
             "created": 1678717897387,
             "url": "{{ _.base_url }}/projects/bVloK2p0RGp2NmtydXB6K3dudkJLZz09",
             "name": "/projects/{project}",
-            "description": "",
+            "description": "Veja os parâmetros disponíveis [aqui](#req_4d5a018fe0dd44c6b8d00891f2000512)",
             "method": "PUT",
             "body": {
                 "mimeType": "application/json",
@@ -415,7 +415,7 @@
         {
             "_id": "jar_eae0ae43b7352669b60fc86b16f712766fe64d4c",
             "parentId": "wrk_efefc8177fe745beb47e64258fc3cc3e",
-            "modified": 1679017285522,
+            "modified": 1679079766351,
             "created": 1662226680019,
             "name": "Default Jar",
             "cookies": [
@@ -430,7 +430,7 @@
                     "hostOnly": true,
                     "creation": "2023-03-14T16:11:14.222Z",
                     "lastAccessed": "2023-03-17T01:41:25.522Z",
-                    "id": "3404508773024766"
+                    "id": "799024206021588"
                 },
                 {
                     "key": "XSRF-TOKEN",
@@ -442,7 +442,20 @@
                     "hostOnly": true,
                     "creation": "2023-03-16T13:51:37.189Z",
                     "lastAccessed": "2023-03-16T13:51:37.189Z",
-                    "id": "7130954660011919"
+                    "id": "41287676640345916"
+                },
+                {
+                    "key": "refresher_session",
+                    "value": "1Ft8WvHFqCzFC02QJI6PhufxcopBprNv052z5Lbe",
+                    "expires": "2023-03-17T21:02:46.000Z",
+                    "maxAge": 7200,
+                    "domain": "refresher.com.br",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": false,
+                    "creation": "2023-03-17T18:31:43.098Z",
+                    "lastAccessed": "2023-03-17T19:02:46.351Z",
+                    "id": "31936466181491885"
                 }
             ],
             "_type": "cookie_jar"
